@@ -1,0 +1,157 @@
+body {
+	width: 100%;
+	height: 10000px;
+	margin:0 auto;
+	background: url(../img/BG/BG.png) top no-repeat;
+}
+.Youtube {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 145px;
+	right: 135px;
+}
+.Youtube img {
+	width: 100%
+}
+.Discord {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 140px;
+	right: 85px;
+}
+.Discord img {
+	width: 100%
+}
+.Instagram {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 145px;
+	right: 45px;
+}
+.Instagram img {
+	width: 100%
+}
+.Settings {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.Settings img {
+	width: 100%
+}
+nav {
+	vertical-align: top;
+	margin-left: 50px;
+	margin-top: 300px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	margin-right: 20px;
+	margin-bottom: 25px;
+	width: 150px
+}
+nav a {
+	text-decoration: none;
+	font-size: 25px;
+	color:#e98d04;
+	font-family: 'Fira Mono', monospace;
+	display: block;
+	padding:10px 10px;
+	background: #fefefe;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color:#e98d04;
+	font-family: 'Fira Mono', monospace;
+	display: block;
+	padding:10px 10px;
+	background: #fefefe;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+header form {
+	width: 200px;
+	margin-top:-325px;
+	margin-left: 1290px;
+}
+header input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	font-family: 'Fira Mono', monospace;
+	border:0px;
+	border-radius: 5px;
+	color:#e98d04;
+}
+header input::placeholder {
+	color:#e98d04;
+}
+header button {
+	width: 100%
+	height: 40px;
+	background: #fefefe;
+	color:#e98d04;
+	font-family: 'Fira Mono', monospace;
+	border:0px solid #fff;
+	border-radius: 5px;
+}
+.photos {
+	text-align: center;
+}
+.photos a {
+	display: inline-block;
+	margin: 400px;
+	width: 640px;
+	height: 440px;
+}
+.photos img{
+	width: 100%;
+	height: 100%
+}
+.text h1 {
+	width: 100%;
+	margin:30px auto;
+	text-align: center;
+	font-size: 70px;
+}
+.text p {
+	width: 100%;
+	margin: 20px auto;
+	color:#fefefe;
+	font-size: 5;
+	font-family: 'Fira Mono', monospace;
+}
+.owl-carousel {
+	width: 956px;
+	margin:50px auto;
+	height:500px;
+	overflow: hidden;
+}
+iframe {
+	display: block;
+	margin:50px auto;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background: none;
+	color:#e98d04;
+	text-align: center;
+	margin:4400px auto 0;
+	font-size: 40px;
+	font-family: 'Fira Mono', monospace;
+	line-height: 100px;
+}
